@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:disposable/disposable.dart';
+import 'package:disposable_object/disposable_object.dart';
 
-class MyDisposableObject extends Disposable {
+class MyDisposableObject extends DisposableObject {
   final streamController = StreamController.broadcast();
   @override
   void disposeInstance() {

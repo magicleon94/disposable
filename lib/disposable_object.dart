@@ -1,8 +1,8 @@
-library disposable;
+library disposable_object;
 
 import 'package:meta/meta.dart';
 
-abstract class Disposable {
+abstract class DisposableObject {
   bool _disposed = false;
   bool get disposed => _disposed;
 
