@@ -1,6 +1,6 @@
 name: disposable_object
 description: A simple interface to manage disposable objects, their disposal and check their disposed status.
-version: 1.0.0+1
+version: 1.0.1
 homepage: https://github.com/magicleon94/http_services
 
 environment:

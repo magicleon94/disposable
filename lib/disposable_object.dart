@@ -4,6 +4,7 @@ import 'package:meta/meta.dart';
 
 abstract class DisposableObject {
   bool _disposed = false;
+
   ///[disposed] will be true if this object was disposed
   bool get disposed => _disposed;
 
